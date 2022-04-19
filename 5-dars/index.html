@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="ism">Ism:</label>
+      <input
+        type="text"
+        placeholder="Ism"
+        id="ism"
+        required
+        minlength="3"
+        maxlength="24"
+        autofocus
+        tabindex="1"
+      />
+      <br />
+      <br />
+      <label for="familiya">Familiya:</label>
+      <input type="text" placeholder="Familiya" id="familiya" />
+      <br />
+      <br />
+      <label for="email">Emailingiz:</label>
+      <input type="email" placeholder="Emailingiz" id="email" tabindex="2" />
+      <br /><br />
+      <label for="cars">Mashinani tanlang:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">BMW</option>
+        <optgroup label="GM Uzbek">
+          <option value="nexia">Nexia</option>
+          <option value="spark">Spark</option>
+          <option value="coablt">Cobalt</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <label for="fan">Fanni tanlang:</label>
+      <input type="radio" name="fan" value="english" />
+      <span>Ingliz tili</span>
+      <input type="radio" name="fan" value="maths" />
+      <span>Matematika</span>
+      <input type="radio" name="fan" value="physics" />
+      <span>Fizika</span>
+      <br /><br />
+      <label for="fanlar">Fanni tanlang:</label>
+      <input type="checkbox" name="fanlar" value="english" />
+      <span>Ingliz tili</span>
+      <input type="checkbox" name="fanlar" value="maths" />
+      <span>Matematika</span>
+      <input type="checkbox" name="fanlar" value="physics" />
+      <span>Fizika</span>
+      <br /><br />
+      <label>Rasm yuklang:</label>
+      <input type="file" multiple accept="image/*" />
+      <br /><br />
+      <button type="submit">Jo'natish</button>
+      <button type="reset">Tozalash</button>
+    </form>
+  </body>
+</html>
+<!-- submit - formni malumotlari jo'natiladi -->
+<!-- reset - formani tozalash uchun -->
+<!-- optgroup - variantlarni guruhlash uchun -->
