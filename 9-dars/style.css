@@ -1,0 +1,56 @@
+/* div {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+body {
+  color: yellow;
+}
+
+b {
+  color: green;
+} */
+
+/* Descendant(avlod) selector */
+
+/* div p {
+  background-color: yellow;
+} */
+
+/* Child(farzand) selector */
+
+/* div > p {
+  background-color: yellow;
+} */
+
+/* Adjecent sibling selector */
+
+/* div + p {
+  background-color: yellow;
+} */
+
+/* General sibling selector */
+
+/* div ~ p {
+  background-color: yellow;
+} */
+
+/* Combined selectors */
+
+h1 {
+  color: red;
+}
+h1.active {
+  background-color: red;
+  color: white;
+}
+a.active {
+  color: green;
+}
+
+/* .active {
+  color: red;
+} */
