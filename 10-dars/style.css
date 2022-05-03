@@ -1,0 +1,52 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid blue; */
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: green; */
+  border: 2px solid blue;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  border: 2px solid red;
+  /* border-top: 5px solid blue;
+  border-right: 2px solid green;
+  border-bottom: 7px solid blue;
+  border-left: 10px solid red; */
+  background-color: yellow;
+  padding: 20px;
+}
+
+.first {
+  /* margin: 20px; */
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+  margin: 30px 100px;
+}
+
+.second {
+  /* padding: 80px 40px 20px 10px; */
+  margin: 80px 40px 20px 10px;
+}
+
+/* width, height - kenglik va balandlik */
+
+body,
+html {
+  height: 100%;
+}
+
+.box {
+  /* width: 100%;
+  height: 100%; */
+  /* width: 200px; */
+  /* min-height: 200px; */
+  /* min-width: 200px; */
+  max-height: 400px;
+}
