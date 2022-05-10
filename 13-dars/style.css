@@ -1,0 +1,33 @@
+.box {
+  width: 600px;
+  height: 300px;
+  /* background-image: url("../assets/star.gif"); */
+  background-image: linear-gradient(to right bottom, red, blue);
+  background-image: radial-gradient(red, blue, green);
+  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-position: center center; */
+  /* background-position: 200px 100px; */
+}
+
+img {
+  /* border-radius: 55px; */
+  border-radius: 50%;
+}
+
+.container {
+  background-color: aqua;
+  width: 400px;
+  height: 200px;
+}
+
+.inside {
+  width: 40%;
+  background-color: red;
+  height: 50%;
+  /* position: absolute; */
+  position: fixed;
+  top: -10px;
+}
