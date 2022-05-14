@@ -41,7 +41,7 @@ html {
   background-color: #eee;
   /* overflow: scroll; */
   /* overflow-y: scroll; */
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .article h2 {
@@ -50,4 +50,18 @@ html {
 
 .sidebar {
   float: left;
+}
+
+@media screen and (max-width: 520px) {
+  .article {
+    padding: 12px 0 12px 120px;
+  }
+  .article p {
+    font-size: 14px;
+  }
+  .sidebar {
+    padding: 15px 7px;
+    background-color: red;
+    height: 100%;
+  }
 }

@@ -1,0 +1,33 @@
+.box_1 {
+  background-color: red;
+  width: 50vw;
+  height: 50vw;
+  border: 1vw solid black;
+}
+
+.box_2 {
+  background-color: blue;
+  /* width: 50vmin; */
+  /* height: 50vmin; */
+  /* border: 1vw solid black; */
+  width: 50vmax;
+  height: 50vmax;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+}
+/* 600pxdan boshlab */
+@media only screen and (min-width: 600px) {
+  .box {
+    background-color: green;
+  }
+}
+/* 900pxdan boshlab */
+@media only screen and (min-width: 900px) {
+  .box {
+    background-color: blue;
+  }
+}
