@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Bir narsa";
+  src: url("../fonts/Smooch/Smooch-Regular.ttf")
+    url("../fonts/Smooch/Smooch-Regular.woff");
+}
+
+html {
+  /* font-family: "Courier New", Courier, monospace; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: "Zen Loop", cursive; */
+  /* font-family: "Smooch", cursive; */
+  font-family: "Bir narsa", cursive;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  position: relative;
+  /* animation-name: box-mover;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-direction: reverse;
+  animation-timing-function: linear; */
+  /* animation: box-mover 5s linear 1s 15 reverse; */
+  /* line-height: 50px; */
+  letter-spacing: 10px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  position: relative;
+  animation-name: box-mover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  /* animation-delay: 3s; */
+}
+
+@keyframes box-mover {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  /* 20% {
+    top: 0;
+    left: 500px;
+    background-color: green;
+  } */
+  50% {
+    top: 500px;
+    left: 650px;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 1250px;
+    background-color: green;
+  }
+}
