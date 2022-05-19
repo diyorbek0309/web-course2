@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .load {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+    }
+    .op {
+        margin: auto;
+        height: 30%;
+        width: 40px;
+        background-color: black;
+        
+    }
+    @keyframes xd {
+        4% {
+            height: 70%;
+        }
+        25% {
+            height: 30%;
+        }
+        100% {
+
+        }
+        
+    }
+        .delay1 {
+            animation: xd 1.5s ease-out infinite;
+        }
+        .delay2 {
+            animation: xd 1.5s ease-out 0.1s infinite;
+        }
+        .delay3 {
+            animation: xd 1.5s ease-out 0.2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="load">
+        <div class="op delay1"></div>
+        <div class="op delay2"></div>
+        <div class="op delay3"></div>
+    </div>
+</body>
+</html>

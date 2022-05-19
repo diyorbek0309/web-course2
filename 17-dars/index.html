@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .flex-container {
+        display: flex;
+        padding: 20px;
+        background-color: #025955;
+        border-radius: 10px;
+        height: 400px;
+        /* width: 300px; */
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        align-items: center;
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: stretch; */
+        /* align-content: center; */
+      }
+      .flex-item {
+        padding: 40px 15px;
+        background-color: #fde8cd;
+        font-weight: bold;
+        margin: 10px;
+        border-radius: 10px;
+        /* width: 33%; */
+      }
+      /* .flex-item:nth-child(5) {
+        order: -2;
+      }
+      .flex-item:nth-child(4) {
+        order: -1;
+      } */
+      .flex-item:first-child {
+        order: 1;
+        flex-grow: 2;
+      }
+      .flex-item:nth-child(2) {
+        flex-grow: 4;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="flex-container">
+      <div class="flex-item">Flex item 1</div>
+      <div class="flex-item">Flex item 2</div>
+      <div class="flex-item">Flex item 3</div>
+    </div> -->
+    <div class="flex-container">
+      <div class="flex-item">Flex item 1</div>
+      <div class="flex-item">Flex item 2</div>
+      <!-- <div class="flex-item">Flex item 3</div>
+      <div class="flex-item">Flex item 4</div>
+      <div class="flex-item">Flex item 5</div>
+      <div class="flex-item">Flex item 6</div>
+      <div class="flex-item">Flex item 7</div> -->
+    </div>
+  </body>
+</html>

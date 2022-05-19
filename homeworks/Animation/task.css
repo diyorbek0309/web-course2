@@ -1,0 +1,31 @@
+.div2,
+.div1,
+.div3 {
+  width: 40px;
+  height: 80px;
+  background-color: black;
+  position: relative;
+  left: 50%;
+  top: 150px;
+  margin-left: 10px;
+  display: inline-block;
+  animation: Loading 1.2s infinite;
+}
+
+.div1 {
+  animation-delay: -0.4s;
+}
+
+.div2 {
+  animation-delay: -0.3s;
+}
+
+.div3 {
+  animation-delay: -0.2s;
+}
+
+@keyframes Loading {
+  0% {
+    transform: scaleY(2);
+  }
+}
