@@ -1,81 +1,72 @@
-.contener{
-    display: flex;
-    border: 1px solid red;
-    width: 700px;
-    height: 760px;
-    /* flex-direction: column; */
-    background-color: #666;
-    margin: 20px;
-    margin-left: 400px;
-    flex-wrap: wrap;
-    box-shadow: 0px 0px 5px black;
+.contener {
+  display: flex;
+  border: 1px solid red;
+  width: 700px;
+  height: 760px;
+  /* flex-direction: column; */
+  background-color: #666;
+  margin: 20px;
+  margin-left: 400px;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 5px black;
+}  
 
+* {
+  margin: 0;
+  padding: 0;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.kunlar{
-    height: 20px;
-    background: #888;
-    
-    
+.kunlar {
+  height: 20px;
+  background: #888;
 }
 
 .kunlar ul {
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* background: #888; */
-    justify-content: space-around;
-
-
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background: #888; */
+  justify-content: space-around;
 }
 
-.kunlar ul li{
-    width: 98px;
-    border: 1px solid red;
+.kunlar ul li {
+  width: 98px;
+  border: 1px solid red;
 }
 
-.sana{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    /* justify-content: flex-end; */
-    /* justify-content: space-around; */
-
+.sana {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+  /* justify-content: space-around; */
 }
 
-.red{
-    padding: 10px 10px;
-    border: 1px solid red;
-    height: 100px;
-    width: 78px;
-
+.red {
+  padding: 10px 10px;
+  border: 1px solid red;
+  height: 100px;
+  width: 78px;
 }
 
-
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.flex{
-    width: 478px;
-    height: 100px;
-    border: none;
+.flex {
+  width: 478px;
+  height: 100px;
+  border: none;
 }
 
-.sana .red:hover{
-    background-color: darkblue;
-    color: aliceblue;
+.sana .red:hover {
+  background-color: darkblue;
+  color: aliceblue;
 }
 
-.kunlar ul li:hover{
-    background-color: gainsboro;
-    color: aqua;
-
+.kunlar ul li:hover {
+  background-color: gainsboro;
+  color: aqua;
 }

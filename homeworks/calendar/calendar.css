@@ -1,0 +1,39 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+table,td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 5px solid white;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+/* tr,th,td{
+    padding: 45px;
+} */
+
+
+th{
+    background: rgb(187, 182, 182);
+    color: black;
+    font-family: Arial black;
+    /* padding: 20px; */
+    font-size: 23px;
+
+}
+
+tr{
+    height: 100px;
+    justify-content: flex-end;
+    background-color: aqua;
+    flex-direction: row;
+}
+
+td:hover{
+background-color: blue;
+}

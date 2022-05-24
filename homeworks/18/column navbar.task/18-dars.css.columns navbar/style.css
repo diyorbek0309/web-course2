@@ -1,84 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-    }
-
-
- body{
-        display: flex;
-        text-align: left;
-        justify-content: center;
-        align-items: left;
-        height: 100vh;
-        background: linear-gradient(rgb(82, 3, 82),rgb(78, 1, 78));
-       }
-
-
-       .center{
-        width: 450px;
-        height: 600px;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 160px;
-      }
-
-       
-      nav{
-        display: flex;
-        justify-content: left;
-        align-items: left;;
-        padding-top: 45px;
-        padding-left: 140px;
-        padding-right: 140px;
-        flex-direction: column;
-    }
-
-
-#navbar{
-    color:gray;
-    font-size: 35px;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 900;
-   
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 18px  25px;
-    display: flex;
-    justify-content: left;
-    }
-
-
-nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-weight: 900;
-    font-family: sans-serif;
-   
+body {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+  background: linear-gradient(rgb(82, 3, 82), rgb(78, 1, 78));
 }
 
-
-nav ul li a:hover{
-    color: rgb(255, 0, 0);
-    transition: .0s;
+.center {
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 160px;
 }
 
-#photo{
-    width: 100x;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 120px;
-    margin-left: 39%;
+nav {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-top: 45px;
+  padding-left: 140px;
+  padding-right: 140px;
+  flex-direction: column;
 }
 
-.index{
-    text-align: center;
-    font-weight: 900;
+#navbar {
+  color: gray;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: left;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0s;
+}
+
+#photo {
+  width: 100x;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 120px;
+  margin-left: 39%;
+}
+
+.index {
+  text-align: center;
+  font-weight: 900;
 }
