@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("../assets/fonts/Open_Sans/OpenSans_Condensed-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 0 170px;
+}
+
+.white_text {
+  color: #fff;
+}
+
+.black_text {
+  color: #000;
+}
+
+.btn_red,
+.btn_transparent:hover {
+  background: #de2e54;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #de2e54;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn_red:hover {
+  background-color: #fff;
+  color: #de2e54;
+}
+
+.btn_transparent {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 120%;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+/* Navbar va Footer boshlandi */
+
+nav {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 185px;
+  justify-content: space-between;
+}
+
+.logo span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu ul li {
+  margin: 0 1rem;
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 150%;
+}
+
+/* Navbar va Footer tugadi */
