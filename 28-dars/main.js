@@ -4,7 +4,7 @@
 function dateConverter(shortFormat) {
   let longFormat = "";
   let date = shortFormat.split("/");
-  console.log(date)
+  console.log(date);
   let index_oy = shortFormat[3] + shortFormat[4];
   let oylar = [
     "yanvar",
@@ -79,3 +79,20 @@ function dateConverter(shortFormat) {
 }
 
 // console.log(dateConverter("2/9/2022"));
+
+// function convert(minute) {
+//   return minute * 60;
+// }
+
+// const convert = (minutes) => 60 * minutes;
+
+// console.log(convert(10));
+
+function reverse(massiv) {
+  let massiv2 = [];
+  for (let i = 0; i < massiv.length; i++) {
+    massiv2[i] = massiv[massiv.length - 1 - i];
+  }
+  return massiv2;
+}
+console.log(reverse([1, 2, 3, 4]));
