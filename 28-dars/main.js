@@ -95,4 +95,55 @@ function reverse(massiv) {
   }
   return massiv2;
 }
-console.log(reverse([1, 2, 3, 4]));
+// console.log(reverse([1, 2, 3, 4]));
+
+function fizzBuzz(input) {
+  for (let i = 1; i <= input; i++) {
+    if (i % 15 === 0) console.log("FizzBuzz");
+    else if (i % 3 === 0 && i % 5 !== 0) console.log("Fizz");
+    else if (i % 3 !== 0 && i % 5 === 0) console.log("Buzz");
+    else console.log(i);
+  }
+}
+
+// fizzBuzz(30);
+
+// let output = fizzBuzz(13);
+// console.log(output);
+
+// function fizzBuzz(input) {
+//   if (input % 15 === 0) return "FizzBuzz";
+//   else if (input % 3 === 0 && input % 5 !== 0) return "Fizz";
+//   else if (input % 3 !== 0 && input % 5 === 0) return "Buzz";
+//   else return input;
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 == 0 && i % 5 == 0) console.log("FizzBuzz");
+//   else if (i % 3 == 0) console.log("Fizz");
+//   else if (i % 5 == 0) console.log("Buzz");
+//   else console.log(i);
+// }
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 15 == 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 5 == 0) {
+//     console.log("Buzz");
+//   } else if (i % 3 == 0) {
+//     console.log("Fizz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// let soat = "12:15 AM";
+// let turi = soat.split(" ");
+// console.log(turi)
+
+// if (turi[1] == "PM")
+//   console.log(12 + parseInt(soat[0] + soat[1]) + soat[2] + soat[3] + soat[4]);
+
+// else if (soat[0] + soat[1] == "12") console.log("00:00");
+
+// else console.log(turi[0]);
