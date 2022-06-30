@@ -45,3 +45,15 @@ let numbers = [45, 23, 56, 89, 65, 92];
     1. Funksiya yaratishlariz kerak, bu funksiya 2 argument oladi, 1-si sonlar massiv, raqam.
     2. Massivning 1- va oxirgi, 2- va oxirgidan bir oldingi va hokazo o'rindagi elementlaridan yangi massiv hosil qilib, chiqaradigan funksiya tuzing. 
 */
+
+function topwiriq(massiv) {
+  let massiv2 = [];
+  for (let i = 0; i < Math.ceil(massiv.length / 2); i++) {
+    if (i !== massiv.length - i - 1)
+      massiv2.push(massiv[i] + massiv[massiv.length - 1 - i]);
+    else massiv2.push(massiv[i]);
+  }
+  console.log(massiv2);
+}
+// topwiriq(["sa", "qaley", "hel", "lo", "san", "lom"]);
+
