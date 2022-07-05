@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="heading1" onmouseout="capitalize()">Hello World! Good Morning 1</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h1 class="h1">Hello World! 2</h1>
+    <h2 class="h1">Hello World! 2</h2>
+    <h2>Hello World! 2</h2>
+    <script>
+    //   let heading1 = document.getElementById("heading1");
+      //   let headings = document.getElementsByTagName("h1");
+      //   let headings = document.getElementsByClassName("h1");
+      //   let headings = document.querySelectorAll("h2.h1");
+    //   heading1.innerHTML = "dsfkjfhsdkjfh skdfjhksdjf";
+    //   heading1.style.color = "red";
+    //   heading1.style.backgroundColor = "#0f0";
+    //   heading1.className = "hello123"
+      //   console.log(window.innerWidth);
+    //   heading1.setAttribute("class", "hello123")
+
+    let heading = document.getElementById("heading1");
+      const upperCase = () => {
+        heading.innerHTML = heading.innerText.toUpperCase()
+      }
+
+      const capitalize = () => {
+        heading.innerHTML = heading.innerText.toLowerCase()
+      }
+      heading.addEventListener("mouseover", upperCase)
+    </script>
+  </body>
+</html>
