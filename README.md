@@ -56,13 +56,13 @@
 11. Practise working with DOM.
 12. Practise working with DOM.
 13. Practise working with DOM.
+14. Practise working with DOM.
 
 ### JavaScript Advanced:
 
-14. Spread operator and Rest Parameter. Getter and Setter.
-15. Try/Catch. Scopes. Let, var and const. this keyword.
-16. Synchronous and asynchronous JS. Callback. Promise. async/await.
-17. OOP Basics. Solving simple problems in JS.
+15. Spread operator and Rest Parameter. Getter and Setter.
+16. Try/Catch. Scopes. Let, var and const. this keyword.
+17. Synchronous and asynchronous JS. Callback. Promise. async/await.
 
 ## Practise 2:
 
