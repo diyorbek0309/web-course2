@@ -67,10 +67,12 @@
 ## Practise 2:
 
 1. Setting up environment and folder structure for new project.
-2. Making HTML/CSS template of new project.
-3. Making dynamic parts of new project.
-4. Optimizing and Deploying new project to Netlify.
-5. Competition 2.
+2. Making HTML/CSS template of new project (Section 1).
+3. Making HTML/CSS template of new project (Section 2).
+4. Making dynamic parts of new project (Section 1).
+5. Making dynamic parts of new project (Section 2).
+6. Optimizing and Deploying new project to Netlify.
+7. Competition 2.
 
 ## React.js:
 
