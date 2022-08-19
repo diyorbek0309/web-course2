@@ -98,11 +98,9 @@
 
 ## Practise 3:
 
-1.  Creating ToDo app with Material – UI (Section 1).
-2.  Creating ToDo app with Material – UI (Section 2).
-3.  Creating landing page with Ant-design (Section 1).
-4.  Creating landing page with Ant-design (Section 2).
-5.  Creating admin panel for landing page with Ant-design (Section 1).
-6.  Creating admin panel for landing page with Ant-design (Section 2).
-7.  Creating admin panel for landing page with Ant-design (Section 3).
-8.  Competition 3.
+1.  Creating landing page with Ant-design (Section 1).
+2.  Creating landing page with Ant-design (Section 2).
+3.  Creating admin panel for landing page with Ant-design (Section 1).
+4.  Creating admin panel for landing page with Ant-design (Section 2).
+5.  Creating admin panel for landing page with Ant-design (Section 3).
+6.  Competition 3.
