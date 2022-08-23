@@ -56,21 +56,23 @@
 11. Practise working with DOM.
 12. Practise working with DOM.
 13. Practise working with DOM.
+14. Practise working with DOM.
 
 ### JavaScript Advanced:
 
-14. Spread operator and Rest Parameter. Getter and Setter.
-15. Try/Catch. Scopes. Let, var and const. this keyword.
-16. Synchronous and asynchronous JS. Callback. Promise. async/await.
-17. OOP Basics. Solving simple problems in JS.
+15. Spread operator and Rest Parameter. Getter and Setter.
+16. Try/Catch. Scopes. Let, var and const. this keyword.
+17. Synchronous and asynchronous JS. Callback. Promise. async/await.
 
 ## Practise 2:
 
 1. Setting up environment and folder structure for new project.
-2. Making HTML/CSS template of new project.
-3. Making dynamic parts of new project.
-4. Optimizing and Deploying new project to Netlify.
-5. Competition 2.
+2. Making HTML/CSS template of new project (Section 1).
+3. Making HTML/CSS template of new project (Section 2).
+4. Making dynamic parts of new project (Section 1).
+5. Making dynamic parts of new project (Section 2).
+6. Optimizing and Deploying new project to Netlify.
+7. Competition 2.
 
 ## React.js:
 
@@ -96,11 +98,9 @@
 
 ## Practise 3:
 
-1.  Creating ToDo app with Material – UI (Section 1).
-2.  Creating ToDo app with Material – UI (Section 2).
-3.  Creating landing page with Ant-design (Section 1).
-4.  Creating landing page with Ant-design (Section 2).
-5.  Creating admin panel for landing page with Ant-design (Section 1).
-6.  Creating admin panel for landing page with Ant-design (Section 2).
-7.  Creating admin panel for landing page with Ant-design (Section 3).
-8.  Competition 3.
+1.  Creating landing page with Ant-design (Section 1).
+2.  Creating landing page with Ant-design (Section 2).
+3.  Creating admin panel for landing page with Ant-design (Section 1).
+4.  Creating admin panel for landing page with Ant-design (Section 2).
+5.  Creating admin panel for landing page with Ant-design (Section 3).
+6.  Competition 3.
