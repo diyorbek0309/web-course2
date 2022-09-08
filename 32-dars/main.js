@@ -30,7 +30,7 @@ laptop2.brand = "Dell";
 
 let add1 = (a, b) => a + b;
 
-// console.log(add(5, 7));
+console.log(add1(5, 7));
 
 // Currying function
 

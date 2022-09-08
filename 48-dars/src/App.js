@@ -7,7 +7,8 @@ function App() {
   console.log(test2, test3, test4);
   return (
     <div className="App">
-      <Button />
+      <Button text="Qo'ng'iroq qilish" color="red" />
+      <Button text="Qabulga yozilish" color="green" />
     </div>
   );
 }
