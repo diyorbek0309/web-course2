@@ -83,16 +83,15 @@
 3.  Style (styled-components, module.css). Install react libraries (bootstrap).
 4.  Class components. State, lifecycle methods, functions in class components
 5.  Working pages. React-router-dom.
-6.  Getting value from input. Ref. Event.
-7.  Todoapp in class component
 
 ### React FC:
 
-8.  Functional component. About functional component. Hooks (useState, useEffect, useRef).
-9.  Working with hooks (useReducer, useContext, custom hook).
+6.  Functional component. About functional component. Hooks (useState, useEffect, useRef).
+7.  Working with hooks (useReducer, useContext, custom hook).
 
 ### React Advanced:
-
+8.  Getting value from input. Ref. Event.
+9.  Todoapp in class component.
 10. Code-splitting. Memoization. Error Boundary.
 11. Redux. React – redux. Redux – thunk.
 
